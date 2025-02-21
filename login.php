@@ -26,6 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,6 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             font-family: 'Arial', sans-serif;
             color: white;
         }
+
         .container {
             max-width: 400px;
             background: rgba(0, 0, 0, 0.4);
@@ -52,17 +54,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             text-align: center;
             animation: fadeIn 0.8s ease-in-out;
         }
+
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-10px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
+
         h2 {
             color: #fff;
         }
+
         .form-group {
             text-align: left;
             margin-bottom: 20px;
         }
+
         .btn-primary {
             background: #ff758c;
             border: none;
@@ -70,14 +83,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             padding: 12px 30px;
             border-radius: 25px;
         }
+
         .btn-primary:hover {
             background: #ff5a7f;
         }
+
         .alert {
             margin-bottom: 20px;
         }
     </style>
 </head>
+
 <body>
 
     <div class="container">

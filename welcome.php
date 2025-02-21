@@ -106,6 +106,7 @@ $stmt->close();
 </head>
 <body>
 
+
     <!-- HERO SZEKCIÓ -->
     <header class="hero">
         <div>
@@ -114,7 +115,23 @@ $stmt->close();
         <a href="logout.php" class="btn btn-danger btn-lg"><i class="fas fa-sign-out-alt"></i> Kijelentkezés</a>
         </div>
     </header>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BBT Autóbérlő</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Főoldal <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kapcsolat.php">Kapcsolat</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- AUTÓK KATEGÓRIÁK -->
     <section id="autok" class="container py-5">
         <h2 class="text-center section-title mb-5">Válassz kategóriát</h2>
